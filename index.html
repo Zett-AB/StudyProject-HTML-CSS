@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="description" content="Киномонстр - это портал о кино"/>
+	<meta name="keywords" content="фильмы, фильмы онлайн, hd" />
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<div class="main">
+		
+		<div class="header">
+			<div class="logo">
+				<div class="logo-text">
+					<h1><a href="/">КиноМонстр</a></h1>
+					<h2>Кино - наша страть!</h2>
+				</div>
+			</div>
+
+			<div class="menubar">
+				<ul class="menu">
+					<li class="selected"><a href="#">Главная</a></li>
+					<li ><a href="#">Фильмы</a></li>
+					<li ><a href="#">Сериалы</a></li>	
+					<li ><a href="#">Рейтинг фильмов</a></li>	
+					<li ><a href="#">Контакты</a></li>	
+
+				</ul>
+
+			</div>	
+		</div>
+
+		<div class="site-content">
+			
+			<div class="sidebar-container">
+				
+				<div class="sidebar">
+					<h2>Поиск</h2>
+					<form method="post" action="#" id="search-form">
+						<input type="search"  name="search-field" placeholder="Ваш запрос" />
+						<input type="submit"  class="btn" value="найти" />
+					</form><!-- пояснения к коду смотри в тетради, тут коротко поясню input не имеет закрывающего тега и закрывается как показано в коде. 
+					форма имеет два метода своей передачи - post и get. 
+					action указывает на страницу по обработке запроса.
+					id это уникальное имя которое данной именно этой форме и оно нигде в коде больше не повторяется. -->
+
+				</div>
+
+				<div class="sidebar">
+					<h2>Вход</h2>
+					<form method="post" action="#" id="login">
+						<input type="text" name="login-field" placeholder="Логин">
+						<input type="password" name="password-field" placeholder="пароль"><!-- слово password  указывает коду, что буквы нужно скрыть, т.е. непоказывать их-->
+						<input type="submit"  class="btn" value="вход" />
+						<div class="lables-passreg-text">
+							<span><a href="#">забыли пароль?</a></span> | <span><a href="#">регистрация</a></span>
+						</div>
+					</form>
+
+				</div>
+
+				<div class="sidebar">
+					<h2>Новости</h2>
+					<span>31.02.2018</span>
+					<p>Мы запустили расширенный поиск</p>
+					<a href="#">читать</a>
+
+				</div>
+
+				<div class="sidebar">
+					<h2>Рейтинг фильмов</h2>
+					<ul>
+						<li><a href="#">Интерстеллар</a><span class="rating-sidebar">8.1</span></li>
+						<li><a href="#">Матрица</a><span class="rating-sidebar">8.0</span></li>
+						<li><a href="#">Безумный Макс</a><span class="rating-sidebar">7.5</span></li>
+						<li><a href="#">Облачный атлас</a><span class="rating-sidebar">7.4</span></li>
+						
+						
+						
+					</ul>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+	
+</body>
+</html>
